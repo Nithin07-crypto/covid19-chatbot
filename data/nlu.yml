@@ -570,7 +570,7 @@ nlu:
     - Covid-19 India Updates 
     - Give me brief details of COVID-19 in INDIA
 
-- intent: :vaccine_updates
+- intent: vaccine_updates
   examples: |
     - Tell the Corona vaccine Updates
     - Give the current Corona Vaccine updates
