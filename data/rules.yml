@@ -1,0 +1,73 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: give the link when vaccine is asked
+  steps:
+  - intent: need_vacine
+  - action: utter_vaccine_url  
+
+- rule: immunity of vaccine against corona
+  steps:
+  - intent: immunity_against_vaccine
+  - action: utter_immunity_against_vaccine1
+
+- rule: corona starts to appear
+  steps:
+  - intent: corona_symptoms_start_appear
+  - action: utter_corona_symptoms_start_appear1
+
+- rule: long covid
+  steps:
+  - intent: long_covid
+  - action: utter_long_covid1
+
+- rule: organ affected by corona 
+  steps:
+  - intent: organs_affected_by_covid
+  - action: utter_organs_affected_by_covid1
+
+- rule: corona progress
+  steps:
+  - intent: corona_progress
+  - action: utter_corona_progress1
+
+- rule: most risk
+  steps:
+  - intent: most_risk
+  - action: utter_most_risk1
+
+- rule: long term risk
+  steps:
+  - intent: long_term_risk
+  - action: utter_long_term_risk1
+
+- rule: covishield vs covaxin
+  steps:
+  - intent: covishield0rcovaxin
+  - action: utter_covishield0rcovaxin1
+
+- rule: typesof vaccines available
+  steps:
+  - intent: typesof_vaccines_available
+  - action: utter_typesof_vaccines_available1
+
+- rule: corona orginaton
+  steps:
+  - intent: corona_originated
+  - action: utter_corona_originated1
+
+- rule: welcome
+  steps:
+  - intent: thank_you
+  - action: utter_welcome
