@@ -1,12 +1,5 @@
 version: "2.0"
-
 nlu:
-- synonym: corona
-  examples: |
-    - covid 19
-    - covid
-    - covid 2019
-
 - intent: greet
   examples: |
     - hey
@@ -22,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - cu
@@ -35,7 +27,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -44,7 +35,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -54,7 +44,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -71,7 +60,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -88,14 +76,12 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: out_of_scope
   examples: |
     - stop
@@ -113,7 +99,6 @@ nlu:
     - i changed my mind
     - i want a burger
     - i want to see a movie
-
 - intent: thank_you
   examples: |
     - thank you
@@ -130,7 +115,6 @@ nlu:
     - I really appreciate your help
     - I’m so grateful
     - Thanks a million
-
 - intent: about_coronavirus
   examples: |
     - about coronavirus
@@ -157,7 +141,6 @@ nlu:
     - from where the coronavirus started
     - what is novel coronavirus
     - why is the disease being called coronavirus disease 2019, COVID-19?
-
 - intent: about_covid-19
   examples: |
     - about covid-19
@@ -183,7 +166,6 @@ nlu:
     - what do you think about covid
     - please tell me what is covid
     - please tell me what is covid19
-  
 - intent: about_coronavirus_symptoms
   examples: |
     - symptoms of coronavirus
@@ -210,7 +192,6 @@ nlu:
     - main symptoms of covid19
     - main symptoms of coronavirus
     - main symptoms of corona
-
 - intent: coronavirus_spread_air
   examples: |
     - is coronavirus is transmitting through air
@@ -224,7 +205,6 @@ nlu:
     - is it possible that corona is spreading through wind
     - is it possible that covid19 is spreading through air
     - is it possible that covid19 is spreading through wind
-
 - intent: coronavirus_spread_feces
   examples: |
     - can the virus that causes covid19 be transmitted through the feces of infected person
@@ -240,7 +220,6 @@ nlu:
     - spread feces
     - waste food
     - corona in waste food
-
 - intent: coronavirus_spread_no_symptoms
   examples: |
     - can covid19 be caught from a person who has no symptoms
@@ -260,7 +239,6 @@ nlu:
     - some covid19 patients are asymptotic
     - asymptotic
     - i have no symptoms can i transmit corona
-
 - intent: coronavirus_spread_animal_source
   examples: |
     - can humans become infected with the COVID-19 from an animal source
@@ -277,7 +255,6 @@ nlu:
     - animal spread corona
     - can animal spread corona
     - corona from animals
-
 - intent: coronavirus_protection_measures
   examples: |
     - what can I do to protect myself and prevent the spread of disease
@@ -301,8 +278,7 @@ nlu:
     - preventive measures
     - protective measures
     - protection measures
-    - prevention measures 
-
+    - prevention measures
 - intent: coronavirus_worry_covid19
   examples: |
     - should I worry about COVID-19
@@ -316,7 +292,6 @@ nlu:
     - why worry about corona
     - worry corona
     - worry covid
-
 - intent: coronavirus_about_risk
   examples: |
     - who is at risk of developing severe illness
@@ -329,7 +304,6 @@ nlu:
     - corona risk
     - coronavirus risk
     - covid risk
-
 - intent: coronavirus_about_antibiotics
   examples: |
     - are antibiotics effective in preventing or treating the covid19
@@ -348,7 +322,6 @@ nlu:
     - is there any antibiotic for covid19
     - antibiotics of corona
     - antibiotics in covid
-
 - intent: coronavirus_about_vaccine
   examples: |
     - are there any vaccine for corona
@@ -371,7 +344,6 @@ nlu:
     - cure for covid
     - cure covid
     - corona is cureable
-
 - intent: coronavirus_about_mask
   examples: |
     - should i wear a mask
@@ -383,7 +355,6 @@ nlu:
     - is mask necessary to avoid infecting from corona
     - is mask necessary to avoid infecting from covid19
     - masks are useful or not
-
 - intent: coronavirus_about_incubation
   examples: |
     - how long is the incubation period for covid19
@@ -400,7 +371,6 @@ nlu:
     - quarantine time please
     - may I know the quarantine time to recover from covid
     - may I know the quarantine time to recover from corona
-
 - intent: coronavirus_about_avoid
   examples: |
     - is there anything I should not do to get corona
@@ -414,7 +384,6 @@ nlu:
     - is there any way of avoiding this virus from spreading
     - suggestions to avoid corona
     - how to prevent covid19
-
 - intent: do_i_have_corona
   examples: |
     - do I have covid
@@ -436,11 +405,10 @@ nlu:
     - predict if i had corona
     - pridict if i have covid
     - do my corona test
-
-- intent: fever_yes_or_no   
+- intent: fever_yes_or_no
   examples: |
     - [fever yes](fever)
-    - [fever no](fever) 
+    - [fever no](fever)
     - [yes i have fever](fever)
     - [yes i think i have fever](fever)
     - [yes i am feeling feverish](fever)
@@ -449,21 +417,19 @@ nlu:
     - [yes i have high fever](fever)
     - [no i don't have fever](fever)
     - [no i do not have fever](fever)
-    - [no i do not think  i have fever](fever) 
-    - [no i don't think so that have fever](fever) 
+    - [no i do not think  i have fever](fever)
+    - [no i don't think so that have fever](fever)
     - [no i am not feeling feverish](fever)
-
-
 - intent: cough_yes_or_no
   examples: |
-    - [cough yes](cough) 
-    - [cough no](cough) 
+    - [cough yes](cough)
+    - [cough no](cough)
     - [yes i have cough](cough)
     - [yes i think i have cough](cough)
     - [yes i have severe cough](cough)
     - [yes i do have cough](cough)
     - [yes i have cough from 2 days](cough)
-    - [yes i have cough since yesterday](cough) 
+    - [yes i have cough since yesterday](cough)
     - [yes i have dry cough](cough)
     - [yes i have wet cough](cough)
     - [no i dont have cough](cough)
@@ -471,45 +437,38 @@ nlu:
     - [no i dont have severe cough](cough)
     - [no i dont have dry cough](cough)
     - [no i dont have wet cough](cough)
-
-
 - intent: tiredness_yes_or_no
   examples: |
-    - [tiredness yes](tiredness) 
-    - [tiredness no](tiredness) 
+    - [tiredness yes](tiredness)
+    - [tiredness no](tiredness)
     - [yes i am feeling tired](tiredness)
-    - [yes i have tiredness](tiredness) 
-    - [yes i do have tiredness](tiredness) 
-    - [yes i have tiredness from yesterday](tiredness) 
-    - [yes i have tiredness since 3 days](tiredness) 
-    - [yes i am feeling very very tired](tiredness) 
+    - [yes i have tiredness](tiredness)
+    - [yes i do have tiredness](tiredness)
+    - [yes i have tiredness from yesterday](tiredness)
+    - [yes i have tiredness since 3 days](tiredness)
+    - [yes i am feeling very very tired](tiredness)
     - [no i am not feeling tired](tiredness)
-    - [no i am not feeling very tired](tiredness) 
-    - [no i donot have tiredness](tiredness) 
-    - [no i don't have tiredness](tiredness) 
-    - [no i don't have tiredness or anything](tiredness) 
-    - [no i am not feeling tired](tiredness) 
-    
-
+    - [no i am not feeling very tired](tiredness)
+    - [no i donot have tiredness](tiredness)
+    - [no i don't have tiredness](tiredness)
+    - [no i don't have tiredness or anything](tiredness)
 - intent: covid_contact
   examples: |
-    - [close contact yes](contact) 
+    - [close contact yes](contact)
     - [close contact no](contact)
     - [yes i had close contact](contact)
     - [yes i had close contact with a covid positive person](contact)
-    - [yes i had contact with covid-19 postive person](contact) 
+    - [yes i had contact with covid-19 postive person](contact)
     - [yes i had closely contacted with a covid positive person](contact)
-    - [yes i had closely contacted with corona positive person](contact) 
-    - [yes i had close contact with covid-19 postive person](contact) 
+    - [yes i had closely contacted with corona positive person](contact)
+    - [yes i had close contact with covid-19 postive person](contact)
     - [yes i had a very close contact](contact)
     - [no i did not have close contact](contact)
     - [no i didn't had close contact with covid-19 positive person](contact)
-    - [no i didnt had any close contact with corona positive person](contact) 
-    
-
+    - [no i didnt had any close contact with corona positive person](contact)
 - intent: travel_yes_or_no
   examples: |
-    - [visited yes](travel) 
+    - [visited yes](travel)
     - [visited no](travel)
     - [yes i visited redzone recently](travel)
     - [yes i visited redzone few days back](travel)
@@ -517,19 +476,16 @@ nlu:
     - [no i did not visit redzone recently](travel)
     - [no i did not visit redzone few days back](travel)
     - [no i did not visit redzone](travel)
-  
-
 - intent: corona_in_my_area
   examples: |
-    - How many cases in my area 
+    - How many cases in my area
     - What is the number of cases in my area
     - Cases in my area
     - Number of cases in my area
-    - How many cases in my state 
+    - How many cases in my state
     - What is the number of cases in my state
     - Cases in my state
     - Number of cases in my state
-
 - intent: corona_location_tracker
   examples: |
     - I am living in [Tamilnadu](location)
@@ -547,12 +503,12 @@ nlu:
     - [HimachalPradesh](location) is my state
     - [Uttarakhand](location) is my state
     - [Jammu and Kashmir](location) is my state
-    - I am currently living in [Ladakh](location) 
+    - I am currently living in [Ladakh](location)
     - I am currently living in [Chattisgarh](location)
     - [Bihar](location) is my home state
     - [Jharkhand](location) is my home state
     - [Odisha](location) is my home state
-    - I live in [WestBengal](location) 
+    - I live in [WestBengal](location)
     - I live in [Sikkim](location)
     - I live in [Assam](location)
     - I am in [Meghalaya](location)
@@ -561,20 +517,18 @@ nlu:
     - I am currently living in [Mijoram](location)
     - I am currently living in [Tripura](location)
     - I am currently living in [Arunachal Pradesh](location)
-
 - intent: recent_stats
   examples: |
-    - What are Today's Stats of Corona in India 
-    - Tell me about Today's Corona Cases in India 
-    - How many Today's Corona Cases in India 
-    - Today's India Corona Cases 
-    - Total Corona Cases in India Today 
-    - Recent Stats in India 
+    - What are Today's Stats of Corona in India
+    - Tell me about Today's Corona Cases in India
+    - How many Today's Corona Cases in India
+    - Today's India Corona Cases
+    - Total Corona Cases in India Today
+    - Recent Stats in India
     - Tell me the current Covid-19 Statistics.
-    - Give me the Covid-19 Statistics 
-    - Covid-19 India Updates 
+    - Give me the Covid-19 Statistics
+    - Covid-19 India Updates
     - Give me brief details of COVID-19 in INDIA
-
 - intent: vaccine_updates
   examples: |
     - Tell the Corona vaccine Updates
@@ -585,11 +539,9 @@ nlu:
     - vaccine updates
     - give me the vaccine updates
     - any updates on vaccine
-
 - intent: search_provider
   examples: |
     - I need a [hospital](facility_type)
-    - find me a nearby [hospital](facility_type)
     - find me a nearby [hospital](facility_type)
     - [hospital](facility_type)
     - find me [test center](facility_type)
@@ -602,11 +554,10 @@ nlu:
     - [shelter home](facility_type) details
     - details of [shelter home](facility_type)
     - details of [shelter home](facility_type) near me
-    - [shelter home](facility_type) address 
+    - [shelter home](facility_type) address
     - where can i get [free food](facility_type)?
     - organization is providing [free food](facility_type)?
     - [free food](facility_type) near me
-
 - intent: coronavirus_about_sanitizer
   examples: |
     - what type of sanitizer can be used
@@ -623,7 +574,6 @@ nlu:
     - will sanitizer removes bacteria
     - does sanitizer kills virus
     - how much alcohol percent should be present in the sanitizer
-
 - intent: coronavirus_precautive_vitamins
   examples: |
     - Is vitamin C helpful for avoiding corona
@@ -636,7 +586,6 @@ nlu:
     - Can Vitamin C Protect You from COVID-19?
     - what are the vitamins that help against corona?
     - what are the vitamins that help against covid 19?
-
 - intent: spread_coronavirus
   examples: |
     - how does the virus spread?
@@ -648,7 +597,6 @@ nlu:
     - spread covid
     - Transmission of virus
     - can mosquitoes or ticks spread the virus that causes COVID-19?
-
 - intent: coronavirus_children
   examples: |
     - What is the risk of my child becoming sick with COVID-19?
@@ -661,7 +609,6 @@ nlu:
     - effects of covid on childrens
     - corona children
     - Danger to children because of covid
-
 - intent: coronavirus_old_people
   examples: |
     - What is the risk of old people becoming sick with COVID-19?
@@ -674,7 +621,6 @@ nlu:
     - corona in old people
     - old people getting covid
     - Danger to old people because of covid
-
 - intent: coronavirus_old_adults_young
   examples: |
     - What is the risk of adult people becoming sick with COVID-19?
@@ -702,7 +648,6 @@ nlu:
     - Are young age people in danger of corona
     - Danger to young age people because of corona
     - Danger to young age people because of covid
-
 - intent: prepare_for_outbreak
   examples: |
     - How can I prepare for an outbreak in my area?
@@ -711,7 +656,6 @@ nlu:
     - outbreak
     - outbreak corona
     - outbreak covid
-
 - intent: coronavirus_test
   examples: |
     - Should I be tested for a current infection?
@@ -721,7 +665,6 @@ nlu:
     - How can I do my test for checking if infected by covid or not
     - Covid test
     - Corona test
-
 - intent: contact_tracing_corona_period
   examples: |
     - What is contact tracing?
@@ -739,7 +682,6 @@ nlu:
     - Will there be a national app for contact tracing?
     - If I participate in contact tracing for COVID-19 using a digital tool, is my personal health information secure?
     - Will I be required to download a contact tracing app for COVID-19 on my phone?
-
 - intent: funerals_corona
   examples: |
     - Am I at risk if I go to a funeral or visitation service for someone who died of COVID-19?
@@ -748,7 +690,6 @@ nlu:
     - funerals
     - dead body
     - death
-
 - intent: coronavirus_cleaning_disinfection
   examples: |
     - What is the difference between cleaning and disinfecting?
@@ -760,13 +701,11 @@ nlu:
     - Should sidewalks, roads, and other outdoor spaces be disinfected to prevent the spread of COVID-19?
     - disinfection
     - cleaning
-
 - intent: community_mitigation_corona
   examples: |
     - what is community mitigation?
     - what are community mitigation actions for COVID-19?
     - mitigation
-
 - intent: corona_from_food_and_water
   examples: |
     - can I get COVID-19 from food or drinking water?
@@ -780,7 +719,6 @@ nlu:
     - food water
     - corona from food
     - corona from water
-
 - intent: treat_corona_home
   examples: |
     - Home remedies please
@@ -792,7 +730,6 @@ nlu:
     - Treat corona at home
     - Home treatment for corona
     - Home treatment for covid
-
 - intent: need_vacine
   examples: |
     - can i have a vaccine?
@@ -802,14 +739,12 @@ nlu:
     - where i can book vaccine?
     - book vaccine
     - can you book vaccine?
-    - vaccine available 
-
+    - vaccine available
 - intent: immunity_against_vaccine
   examples: |
     - How long does immunity against COVID-19 last after vaccination?
     - immunity of vaccine against covid 19?
     - when will the immunity against covid 19 vaccine fade after vaccination?
-
 - intent: corona_symptoms_start_appear
   examples: |
     - How long does it take for symptoms of the coronavirus disease to appear?
@@ -817,63 +752,57 @@ nlu:
     - when will symptoms start to appear?
     - corona symptoms begin
     - when will symptoms of corona begin?
-    - corona symptoms begin
     - development of corona symptoms
     - how long does it takes to develop corona symptoms ?
-
 - intent: long_covid
   examples: |
     - What is long COVID?
     - long covid
     - what is the term long covid?
     - long covid meaning
-
 - intent: organs_affected_by_covid
   examples: |
     - What are the organs most affected by COVID‐19?
     - organs affected by covid
-    - organs that severly affected by covid 
-
+    - organs that severly affected by covid
 - intent: corona_progress
   examples: |
     - What happens to people who get COVID-19?
     - what is the progress of covid 19 inside the person
     - person affected by corona
-
 - intent: most_risk
   examples: |
     - Who is most at risk of severe illness from COVID-19?
     - which age group is at severe risk?
     - who has most risk?
     - most risky people
-
 - intent: long_term_risk
   examples: |
     - Are there long-term effects of COVID-19?
     - long term effects of corona
     - will covid have long term effect in affected people?
-
 - intent: covishield0rcovaxin
   examples: |
     - which is better covishield or covaxin?
     - which vaccine is better in india?
-    - better vaccine 
+    - better vaccine
     - which vaccine is good for health
-    - less sideeffect vaccine 
-
+    - less sideeffect vaccine
 - intent: typesof_vaccines_available
   examples: |
     - how many types of vaccines available in india?
-    - no of vaccines 
+    - no of vaccines
     - what are the types available in india?
     - kinds of vaccine
-    - types of vaccine 
-
+    - types of vaccine
 - intent: corona_originated
   examples: |
     - where it is originated?
     - from where corona starts to spread?
     - corona origination
     - where is corona originated?
-
-    
+- synonym: corona
+  examples: |
+    - covid 19
+    - covid
+    - covid 2019
