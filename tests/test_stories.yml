@@ -1,0 +1,136 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: happy path 1
+  steps:
+  - user: |
+      hello there!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      amazing
+    intent: mood_great
+  - action: utter_happy
+
+- story: happy path 2
+  steps:
+  - user: |
+      hello there!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      amazing
+    intent: mood_great
+  - action: utter_happy
+  - user: |
+      bye-bye!
+    intent: goodbye
+  - action: utter_goodbye
+
+- story: sad path 1
+  steps:
+  - user: |
+      hello
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - user: |
+      yes
+    intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - user: |
+      hello
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - user: |
+      not really
+    intent: deny
+  - action: utter_goodbye
+
+- story: sad path 3
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      very terrible
+    intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - user: |
+      no
+    intent: deny
+  - action: utter_goodbye
+
+- story: say goodbye
+  steps:
+  - user: |
+      bye-bye!
+    intent: goodbye
+  - action: utter_goodbye
+
+- story: bot challenge
+  steps:
+  - user: |
+      are you a bot?
+    intent: bot_challenge
+  - action: utter_iamabot
+
+- story: most predictable 
+  steps:
+  - user: |
+      hello
+    intent: greet
+  - action: utter_greet
+  - user: |
+      tell me about corona
+    intent: about_coronavirus
+  - action: utter_corona
+  - user: |
+      do i have corona?
+    intent: do_i_have_corona
+  - action:  utter_ask_fever_yes_or_no
+  - user: |
+      [yes i have fever]{"entity": "fever"}
+    intent: fever_yes_or_no
+  - action: utter_ask_cough_yes_or_no
+  - user: |
+      [yes i have cough]{"entity": "cough"}
+    intent: cough_yes_or_no
+  - action: utter_ask_tiredness_yes_or_no
+  - user: |
+      [yes i feel tired]{"entity": "tiredness"}
+    intent: tiredness_yes_or_no
+  - action: utter_ask_covid_contact
+  - user: |
+      [yes i had close contact]{"entity": "contact"}
+    intent: covid_contact
+  - action: utter_ask_travel_history
+  - user: |
+      [yes i visited redzone]{"entity": "travel"}
+    intent: travel_yes_or_no
+  - action:  action_corona_predict
+
+- story: covid19
+  steps: 
+  - user: |
+      what is covid19?
+    intent: about_covid-19
+  - action: utter_covid19
+
+
+
