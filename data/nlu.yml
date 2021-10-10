@@ -15,6 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - Hello
 - intent: goodbye
   examples: |
     - cu
@@ -60,6 +61,8 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - I am fine
+    - Sooper
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -192,6 +195,7 @@ nlu:
     - main symptoms of covid19
     - main symptoms of coronavirus
     - main symptoms of corona
+    - Symptoms of covid9
 - intent: coronavirus_spread_air
   examples: |
     - is coronavirus is transmitting through air
@@ -765,6 +769,7 @@ nlu:
     - What are the organs most affected by COVID‐19?
     - organs affected by covid
     - organs that severly affected by covid
+    - Which organ does covid affect ?
 - intent: corona_progress
   examples: |
     - What happens to people who get COVID-19?
@@ -801,6 +806,13 @@ nlu:
     - from where corona starts to spread?
     - corona origination
     - where is corona originated?
+    - Covid 19 originated in ?
+    - Which place corona start spread first ?
+    - Where corona emerged ?!
+- intent: name
+  examples: |
+    - what is your name ?
+    - tell me your name
 - synonym: corona
   examples: |
     - covid 19
