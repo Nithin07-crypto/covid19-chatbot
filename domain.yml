@@ -127,6 +127,10 @@ intents:
     use_entities: true
 - thank_you:
     use_entities: true
+- your_work:
+    use_entities: true
+- about_you:
+    use_entities: true
 entities:
 - location
 - facility_type
@@ -377,6 +381,11 @@ responses:
   utter_thank_you:
   - text: WELCOME!
   - text: I'm glad, I helped you
+  utter_your_work:
+  - text: I can clear all your queries about covid 19
+  utter_about_you:
+  - text: I'm doing good , thank you for asking.I can help you with queries about covid 19
+  - text: I'm fine, thank you for asking . This is a challenging time for us. I hope you and  your loved ones are staying safe and healthy
 actions:
 - utter_greet
 - utter_corona
@@ -438,5 +447,7 @@ actions:
 - utter_typesof_vaccines_available
 - contact_tracing_corona_period
 - utter_thank_you
+- utter_your_work
+- utter_about_you
 forms: {}
 e2e_actions: []

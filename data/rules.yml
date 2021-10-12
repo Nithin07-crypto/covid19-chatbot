@@ -60,3 +60,11 @@ rules:
   steps:
   - intent: name
   - action: utter_name
+- rule: your role
+  steps:
+  - intent: your_work
+  - action: utter_your_work
+- rule: how are you
+  steps:
+  - intent: about_you
+  - action: utter_about_you

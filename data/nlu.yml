@@ -774,11 +774,9 @@ nlu:
   examples: |
     - What happens to people who get COVID-19?
     - what is the progress of covid 19 inside the person
-    - person affected by corona
 - intent: most_risk
   examples: |
     - Who is most at risk of severe illness from COVID-19?
-    - which age group is at severe risk?
     - who has most risk?
     - most risky people
 - intent: long_term_risk
@@ -813,6 +811,16 @@ nlu:
   examples: |
     - what is your name ?
     - tell me your name
+- intent: your_work
+  examples: |
+    - how can you help me
+    - what can you do ?
+    - what is your job?
+    - what is your role?
+- intent: about_you
+  examples: |
+    - how are you?
+    - how are you doing?
 - synonym: corona
   examples: |
     - covid 19
