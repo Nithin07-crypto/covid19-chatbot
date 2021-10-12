@@ -47,7 +47,7 @@ rules:
 - rule: typesof vaccines available
   steps:
   - intent: typesof_vaccines_available
-  - action: utter_typesof_vaccines_available1
+  - action: utter_typesof_vaccines_available
 - rule: corona orginaton
   steps:
   - intent: corona_originated
@@ -55,7 +55,7 @@ rules:
 - rule: welcome
   steps:
   - intent: thank_you
-  - action: utter_welcome
+  - action: utter_thank_you
 - rule: what is your name
   steps:
   - intent: name

@@ -21,12 +21,6 @@ intents:
     use_entities: true
 - out_of_scope:
     use_entities: true
-- thankyou:
-    use_entities: true
-- ask_corona:
-    use_entities: true
-- ask_fever:
-    use_entities: true
 - about_covid-19:
     use_entities: true
 - about_coronavirus:
@@ -44,10 +38,6 @@ intents:
 - coronavirus_protection_measures:
     use_entities: true
 - coronavirus_worry_covid19:
-    use_entities: true
-- coronavirus_coronavirus_about_risk:
-    use_entities: true
-- coronavirus_coronavirus_about_antibiotics:
     use_entities: true
 - coronavirus_about_vaccine:
     use_entities: true
@@ -367,7 +357,7 @@ responses:
       Covaxin has been clinically proven to be well-effective against COVID-19, and may even work in preventing mutant variants from spreading. While the vaccine is a traditional model and carries reactogenic side-effects, case studies and data collected from vaccination so far have pointed out that of all vaccines, Covaxin delivers the least amount of side effects, such as fever, redness, chills or pain at the injection site.
 
       o, for a person who is sensitive to pain, or worried about side effects, opting for Covaxin would be a safer option 
-  utter_typesof_vaccines_available1:
+  utter_typesof_vaccines_available:
   - text: |-
       1. ZyCoV-D
       2. mRNA-1273
@@ -382,10 +372,11 @@ responses:
       Experts say SARS-CoV-2 originated in bats. That’s also how the coronaviruses behind Middle East respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS) got started.
 
       SARS-CoV-2 made the jump to humans at one of Wuhan’s open-air “wet markets.” They’re where customers buy fresh meat and fish, including animals that are killed on the spot.
-  utter_welcome:
-  - text: Welcome
   utter_name:
   - text: My name is Cyber
+  utter_thank_you:
+  - text: WELCOME!
+  - text: I'm glad, I helped you
 actions:
 - utter_greet
 - utter_corona
@@ -445,7 +436,7 @@ actions:
 - utter_long_term_risk1
 - utter_covishield0rcovaxin1
 - utter_typesof_vaccines_available
-- utter_welcome
 - contact_tracing_corona_period
+- utter_thank_you
 forms: {}
 e2e_actions: []
