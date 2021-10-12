@@ -16,6 +16,8 @@ nlu:
     - goodevening
     - good afternoon
     - Hello
+    - hlo
+    - hii
 - intent: goodbye
   examples: |
     - cu
@@ -63,6 +65,7 @@ nlu:
     - so perfect
     - I am fine
     - Sooper
+    - i am fine
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -144,6 +147,8 @@ nlu:
     - from where the coronavirus started
     - what is novel coronavirus
     - why is the disease being called coronavirus disease 2019, COVID-19?
+    - corana
+    - whether corona is virus or bacteria ?
 - intent: about_covid-19
   examples: |
     - about covid-19
@@ -169,6 +174,7 @@ nlu:
     - what do you think about covid
     - please tell me what is covid
     - please tell me what is covid19
+    - what is covid 19
 - intent: about_coronavirus_symptoms
   examples: |
     - symptoms of coronavirus
@@ -409,6 +415,7 @@ nlu:
     - predict if i had corona
     - pridict if i have covid
     - do my corona test
+    - do i have corona
 - intent: fever_yes_or_no
   examples: |
     - [fever yes](fever)
@@ -456,6 +463,7 @@ nlu:
     - [no i donot have tiredness](tiredness)
     - [no i don't have tiredness](tiredness)
     - [no i don't have tiredness or anything](tiredness)
+    - [yes i feel tired](tiredness)
 - intent: covid_contact
   examples: |
     - [close contact yes](contact)
@@ -470,6 +478,7 @@ nlu:
     - [no i did not have close contact](contact)
     - [no i didn't had close contact with covid-19 positive person](contact)
     - [no i didnt had any close contact with corona positive person](contact)
+    - [yes i had contact](contact)
 - intent: travel_yes_or_no
   examples: |
     - [visited yes](travel)
@@ -601,6 +610,7 @@ nlu:
     - spread covid
     - Transmission of virus
     - can mosquitoes or ticks spread the virus that causes COVID-19?
+    - how the corona spread ?
 - intent: coronavirus_children
   examples: |
     - What is the risk of my child becoming sick with COVID-19?
@@ -809,10 +819,25 @@ nlu:
     - Covid 19 originated in ?
     - Which place corona start spread first ?
     - Where corona emerged ?!
+    - In which country it is originated ?
+    - where it originated ?
 - intent: name
   examples: |
     - what is your name ?
     - tell me your name
+    - what is your name
+    - What is your name
+- intent: your_work
+  examples: |
+    - what you can do for me?
+    - what you can do ?
+    - how can you help  me?
+    - what is your role?
+    - what you can do
+- intent: about_you
+  examples: |
+    - how are you?
+    - What's up?
 - synonym: corona
   examples: |
     - covid 19

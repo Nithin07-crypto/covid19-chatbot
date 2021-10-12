@@ -21,12 +21,6 @@ intents:
     use_entities: true
 - out_of_scope:
     use_entities: true
-- thankyou:
-    use_entities: true
-- ask_corona:
-    use_entities: true
-- ask_fever:
-    use_entities: true
 - about_covid-19:
     use_entities: true
 - about_coronavirus:
@@ -44,10 +38,6 @@ intents:
 - coronavirus_protection_measures:
     use_entities: true
 - coronavirus_worry_covid19:
-    use_entities: true
-- coronavirus_coronavirus_about_risk:
-    use_entities: true
-- coronavirus_coronavirus_about_antibiotics:
     use_entities: true
 - coronavirus_about_vaccine:
     use_entities: true
@@ -133,9 +123,13 @@ intents:
     use_entities: true
 - name:
     use_entities: true
+- your_work:
+    use_entities: true
 - corona_originated:
     use_entities: true
 - thank_you:
+    use_entities: true
+- about_you:
     use_entities: true
 entities:
 - location
@@ -367,7 +361,7 @@ responses:
       Covaxin has been clinically proven to be well-effective against COVID-19, and may even work in preventing mutant variants from spreading. While the vaccine is a traditional model and carries reactogenic side-effects, case studies and data collected from vaccination so far have pointed out that of all vaccines, Covaxin delivers the least amount of side effects, such as fever, redness, chills or pain at the injection site.
 
       o, for a person who is sensitive to pain, or worried about side effects, opting for Covaxin would be a safer option 
-  utter_typesof_vaccines_available1:
+  utter_typesof_vaccines_available:
   - text: |-
       1. ZyCoV-D
       2. mRNA-1273
@@ -386,6 +380,10 @@ responses:
   - text: Welcome
   utter_name:
   - text: My name is Cyber
+  utter_ your_work:
+  - text: I can help you by answering any queries regarding corona
+  utter_about_you:
+  - text: I feel happy ,if you can ask any queries related to covid 19
 actions:
 - utter_greet
 - utter_corona
@@ -447,5 +445,7 @@ actions:
 - utter_typesof_vaccines_available
 - utter_welcome
 - contact_tracing_corona_period
+- utter_about_you
+- utter_your_work
 forms: {}
 e2e_actions: []
