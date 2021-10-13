@@ -1,0 +1,38 @@
+- what is coronavirus?
+- what is covid19?
+- symptoms of covid19
+- can corona spread throug air?
+- can a person with no symptoms of corona can spread covid
+- can i get infected from an animal
+- measures to be followed to prevent covid19
+- should I worry about COVID-19
+- Are people with disabilities at higher risk?
+- any idea about antibodies for killing covid19
+- are there any drugs or vaccine for covid19
+- is wearing mask useful
+- what is quarantine
+- how to avoid covid19
+- Any update regarding Covid Vaccine
+- what precautions can be taken to clean hands
+- Is vitamin C helpful for avoiding corona
+- how does the virus spread?
+- Are kids in danger of covid19
+- What is the risk of old people becoming sick with COVID-19?
+- How can I prepare for an outbreak in my area?
+- Covid test
+- What is contact tracing?
+- Can I attend funerals
+- What is the difference between cleaning and disinfecting?
+- what is community mitigation?
+- Does corona spread through food
+- Home remedies
+- i need vaccine
+- How long does immunity against COVID-19 last after vaccination?
+- when will symptoms start to appear?
+- What is long COVID?
+- organs affected by covid
+- what is the progress of covid 19 inside the person
+- long term effects of covid
+which is better covishield or covaxin?
+how many types of vaccines available in india?
+where is corona originated
